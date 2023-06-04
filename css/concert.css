@@ -1,0 +1,95 @@
+body{
+    font-size: 16px;
+    font-family: STKaiti,'Segoe UI', Tahoma, Geneva, Verdana;
+    background-color: rgb(247, 238, 217);
+}
+h2{
+    font-size:130%; 
+}
+
+/* 页眉区 */
+.header{
+    margin: 10px 10px 0px 10px;
+    height: 120px;
+    background-color:tan;
+    border-style: dashed;
+    border-color: darkred;
+    border-width: 3px;
+}
+img#conlogo{
+    width:  120px;
+    height: 120px;
+}
+div#title{
+    margin: 25px 150px 0px 0px;
+    float: right;
+    font-family:STXinwei,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 150%;
+    color: darkred;
+}
+
+/* 边栏海报 */
+aside#post{
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin:  10px 10px 10px 0px;
+    padding: 10px 5px 10px 0px;
+    text-align: center;
+}
+
+/* 设置图片大小 */
+img#invitation{
+    width: 250px;
+    height: auto;
+}
+img#erhu{
+    width: 170px;
+    height: 250px;
+}
+img#together{
+    width:  300px;
+    height: 200px;
+}
+
+/* 视频 */
+div.type{
+    margin: 17px 350px 10px 300px;
+    padding: 5px;
+    background-color: bisque;
+    width:  570px;
+    height: 440px;
+}
+
+/* 个人照片 */
+/* 此处为固定位置 */
+aside#photos{
+    position: absolute;
+    top: 140px;
+    right: 5px;
+    width: 260px;
+    height: 430px;
+    margin:  10px;
+    padding: 10px;
+    text-align: center;
+    background-color: bisque;
+}
+
+/* 团队照片 */
+div.header{
+    margin-top:   80px;
+    padding-left: 30px;
+    padding-top:  5px;
+    color: brown;
+    height: 300px;
+    border: none;
+}
+
+/* 页脚 */
+footer.header{
+    height: 70px;
+    border: none;
+    background-color: bisque;
+    padding-top: 20px;
+    text-align: center;
+}

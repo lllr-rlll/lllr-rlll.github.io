@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影视作品</title>
+    <link rel="stylesheet" href="./css/movie.css">
+</head>
+
+<body>
+    <!-- 页眉 -->
+    <header class="header">
+    <p>介绍我喜欢的影视作品</p>
+    </header>
+
+    <!-- 使用盒模型，把所有剧照都放在一个块元素中，放在页面的左侧，形成一个边栏区 -->
+    <div id="moviephoto">
+        <h1>剧照</h1>
+        <img id="longtime" src="./images/longtime.jpg" alt="漫长的季节">
+        <p>漫长的季节</p>
+        <img id="violet" src="./images/violet.jpeg" alt="紫罗兰永恒花园">
+        <p>紫罗兰永恒花园</p>
+        <img id="wander" src="./images/wander.png" alt="流浪地球">
+        <p>流浪地球</p>
+    </div>
+
+    <!-- 把三段介绍分别放在三个块元素中，使用同样的样式，方便设置内容的位置以及统一格式 -->
+    <div class="intro">
+        <h1>漫长的季节</h1>
+        <p>“他听着雪花隐隐约约地飘落，慢慢地睡着了，雪花穿过宇宙轻轻地落下，就像他们的结局似的，
+            落到所有的生者和死者身上。” 那些飘扬的雪花之下，是历史的厚重沧桑，潜藏着一代人老去的秘密。
+            《漫长的季节》是由辛爽执导，范伟、秦昊、陈明昊领衔主演的生活悬疑剧。
+            当你怀着一种看悬疑剧的心态去看这部剧的时候，可能很快就会怀疑这是一部喜剧，但是笑着笑着就
+            容易流出泪来。生活对剧中人太苛刻了，命运并没有垂青任何人，那些标好价格的底牌，一张张都被
+            收了回去。当眼泪干了之后，才会发现这就是生活。</p>
+    </div>
+
+    <div class="intro">
+        <h1>紫罗兰永恒花园</h1>
+        <p>“自动手记人偶”这个名字名噪一时的时候，已经是相当一段时间前的事了。奥兰德博士发明了用于书写
+            记录人声话语的机械。当初他仅仅为了爱妻而制造的这一机械，不知何时已普及至全世界，甚至设立了
+            提供借出服务的机关。
+            若是客人您有所期望的话，我可以去往任何地方。我是，自动手记人偶服务人员，薇尔莉特·伊芙加登。
+            有着如同从故事书中出现般的样貌，金发碧眼的女子，保持着无机质的美，以玲珑剔透的声音如此说到。
+            画面巨美！</p>
+    </div>
+
+    <div class="intro">
+        <h1>流浪地球</h1>
+        <p>《流浪地球2》是由郭帆执导，吴京、李雪健、沙溢、宁理、王智、朱颜曼滋领衔主演、刘德华特别演出的
+            科幻灾难电影。该片以提出计划将建造1万座行星发动机的时代为故事背景，讲述了“太阳危机”即将来袭，
+            世界陷入一片恐慌之中，万座行星发动机正在建造中，人类将面临末日灾难与生命存续的双重挑战故事。
+            刘德华真帅！</p>
+    </div>
+
+    <!-- 使用form和select元素构造一个简单的可交互表单 -->
+    <div class="intro">
+        <h1>来投票吧！喜欢哪个作品？</h1>
+        <p>总之这是一个表单</p>
+        <form action="./response.html" method="post">
+        <select name="vote">
+            <option value="longtime">漫长的季节</option>
+            <option value="violet">紫罗兰永恒花园</option>
+            <option value="wander">流浪地球</option>
+          </select>
+          <input type="submit" value="提交">
+        </form>
+    </div>
+</body>
+</html>

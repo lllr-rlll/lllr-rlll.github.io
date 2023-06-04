@@ -1,0 +1,64 @@
+body{
+    font-size: 16px;
+    background-color: rgb(224, 246, 255);
+}
+
+header {
+    background-color:white;
+    margin: 0px 10px 0px 10px;
+    padding-top: 8px;
+    height: 100px;
+
+    text-align: center;
+    font-size: 200%;
+    color:rgb(40, 171, 252);
+    font-family: STXinwei,'Segoe UI', Tahoma, Geneva, Verdana;
+
+    border: dashed lightsteelblue;
+    border-width: 3px;
+}
+
+/*边栏区*/
+div#moviephoto{
+    float:  left;
+    margin: 15px 15px 15px 15px;
+    width:  300px;
+    height: 900px;
+
+    text-align: center;
+    font-size: medium;
+    color: navy;
+
+    background-color: lightsteelblue;
+    border-color: darkcyan;
+    border-width: 3px;
+    border-style: groove;
+}
+
+/*剧情介绍的样式，所有剧情介绍使用同一样式*/
+.intro{
+    margin: 15px 10px 10px 350px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-color: darkcyan;
+    border-width: 3px;
+    border-style: groove;
+}
+
+/*设置所有标题的样式*/
+h1{
+    font-size: 130%;
+    font-weight: bolder;
+    color: rgb(40, 171, 252);
+}
+
+/*设置图片大小*/
+img#longtime,img#violet{
+    width:  200px;
+    height: 250px;
+}
+img#wander{
+    width:  200px;
+    height: 150px;
+}
+

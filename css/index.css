@@ -1,0 +1,118 @@
+body{
+    font-size: 16px;
+    background: url(../images/background.jpeg) repeat;
+}
+
+/*页眉区*/
+header.top {
+    background-color:#b8acea;
+    margin: 10px 10px 0px 10px;
+    height: 120px;
+}
+header.top img#logo{
+    width:  120px;
+    height: 120px
+}
+header.top div#title{
+    margin: 30px 150px 0px 0px;
+    float: right;
+    font-family:STXinwei,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 250%;
+    font-style: italic;
+    color:rgb(238, 232, 120);
+}
+
+
+/*导航区*/
+nav {
+    background-color: rgb(238, 232, 120);
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color:#9282cf;
+	border-bottom: none;
+	font-weight:bold;
+    font-size: 150%;
+}
+nav ul li.selected {
+	background-color: #e78e29;
+}
+
+/*分栏*/
+/*设置分栏的块元素的样式为table*/
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+/*设置每一栏的样式为table-cell*/
+/*自我介绍*/
+section#selfintro{
+    display: table-cell;
+    width: 300px;
+    height: 600px;
+    padding: 15px;
+}
+
+/*个人经历*/
+section#experience{
+    display: table-cell;
+    width: 400px;
+    height: 600px;
+    padding: 15px;
+}
+
+/*我的照片*/
+aside#photo{
+    display: table-cell;
+    width: 300px;
+    height: 600px;
+    padding: 15px;
+}
+img#myphoto{
+    margin-left: 25px;
+    width: 250px;
+    height: 500px;
+}
+
+/*内容的字体边框设置*/
+section#selfintro,section#experience,aside#photo{
+    background-color: rgb(238, 232, 120);
+    border-style:groove;
+    border-width: 4px;
+    border-radius: 5%;    /*圆角*/
+
+    font-size: medium;
+    color: #9282cf;
+    vertical-align: auto;
+}
+
+h1{
+    font-size: 130%;
+    color: rebeccapurple;
+}
+
+/*页脚*/
+footer {
+    background-color: #9282cf;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          10px;
+    margin:  0px 10px 10px 10px;
+    height:           50px;
+    font-size:        120%;
+    font-family: STXinwei,'Segoe UI', Tahoma, Geneva, Verdana;
+  }

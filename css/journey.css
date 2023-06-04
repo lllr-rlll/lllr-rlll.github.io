@@ -1,0 +1,51 @@
+body{
+    background: url(../images/tourback.jpg) repeat;
+    font-family: STKaiti,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(12, 122, 169);
+}
+
+h2{
+    font-size: 130%;
+    font-family: STXingkai,'Segoe UI', Tahoma, Geneva, Verdana;
+    font-style: italic;
+    color:rgb(12, 122, 169);
+    text-decoration: underline;
+}
+
+/*设置图片格式*/
+img#me{
+    width:  180px;
+    height: 300px;
+}
+img#gorge{
+    width:  700px;
+    height: 250px;
+}
+img#metoo{
+    width:  180px;
+    height: 300px;
+}
+
+/*表格*/
+table{
+    margin-bottom: 20px;
+}
+caption {
+    font-style:   italic;
+    font-size:    130%;
+    font-weight:  bolder;
+    padding-top:  8px;
+}
+td,th {
+    border:     thin dotted gray;
+    padding:    5px;
+}
+th {
+    background-color: #80ecd1;
+}
